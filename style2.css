@@ -1,16 +1,16 @@
-/* Apply a background color to the body */
+
 body {
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 
-/* Style the heading */
+
 h2 {
     color: #333;
 }
 
-/* Style the list items */
+
 ul {
     list-style: none;
     padding: 0;
