@@ -7,13 +7,14 @@
     <title>Contactez-moi</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="style4.css">
+
 </head>
 
 <body>
     <div>
 
-        <form style="display: flex; flex-direction: column; align-items: left;">
-            <!-- Remplacez "traitement.php" par le script de traitement côté serveur -->
+        <form style="display: flex; flex-direction: column; align-items: left;" id="myForm">
+
 
             <h1><i class="fas fa-envelope"></i> Contactez-moi</h1>
 
@@ -23,6 +24,13 @@
             <label for="email"><i class="fas fa-at"></i> Email :</label>
             <input type="email" id="email" name="email" required>
 
+            <label for="cin"><i class="fas fa-at"></i> CIN :</label>
+            <input type="text" id="cin" name="cin" required>
+
+            <label for="nm"><i class="fas fa-at"></i> Phone number :</label>
+            <input type="text" id="nm" name="nm" required>
+
+
             <label for="message"><i class="fas fa-comment"></i> Message :</label>
             <textarea id="message" name="message" rows="4" required></textarea>
 
@@ -30,6 +38,7 @@
         </form>
     </div>
     <a href="Page3.html">Previous</a>
+    <script src="index.js"></script>
 </body>
 
 </html>
